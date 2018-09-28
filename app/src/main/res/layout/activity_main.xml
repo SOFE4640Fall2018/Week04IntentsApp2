@@ -1,0 +1,34 @@
+<LinearLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingBottom="@dimen/paddingValue"
+    android:paddingTop="@dimen/paddingValue"
+    android:paddingLeft="@dimen/paddingValue"
+    android:paddingRight="@dimen/paddingValue"
+    android:orientation="vertical"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/lblGreeting"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/General_Greeting"/>
+
+    <Button
+        android:id="@+id/btnGetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Name"
+        android:onClick="getName"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Origin"
+        android:onClick="getOrigin"/>
+</LinearLayout>
